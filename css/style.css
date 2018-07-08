@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: scale(1.1); }
 
 #colorlib-hero {
-  min-height: 650px;
+  max-height: 400px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 80%;
   margin-left: 10%; }
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6, figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 650px;
+        max-height: 400px;
         position: relative; }
         #colorlib-hero .flexslider .slides li .overlay {
           position: absolute;
@@ -1358,8 +1358,7 @@ input[type="text"] {
   width: 25px;
   height: 25px;
   cursor: pointer;
-  text-decoration: none;
-  top: 5em !important; }
+  text-decoration: none;}
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
     background: #444; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
@@ -1430,7 +1429,7 @@ input[type="text"] {
 .colorlib-nav-toggle {
   position: absolute;
   right: 0px;
-  top: 65px;
+  top: 25px;
   z-index: 21;
   padding: 6px 0 0 0;
   display: block;
