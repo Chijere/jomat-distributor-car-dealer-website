@@ -389,6 +389,7 @@ h1, h2, h3, h4, h5, h6, figure {
               width: 100%; } }
 
 .colorlib-light-grey {
+  padding-top: 20px !important;
   background: #fafafa; }
 
 #colorlib-dining-bar,
@@ -1126,7 +1127,7 @@ input[type="text"] {
   color: #000; }
 
 .colorlib-heading {
-  margin-bottom: 5em; }
+  margin-bottom: 1em; }
   .colorlib-heading.colorlib-heading-sm {
     margin-bottom: 2em; }
   .colorlib-heading h2 {
