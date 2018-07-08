@@ -430,9 +430,10 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-reservation {
   clear: both; }
   #colorlib-reservation .search-wrap {
-    width: 100%;
+    width: 80%;
     display: block;
-    margin-top: -6.66em;
+    margin-left: 10%;
+    margin-top: 0.1em;
     z-index: 9;
     background: #302939;
     padding: 35px; }
